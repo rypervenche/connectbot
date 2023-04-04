@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-21 23:51-0700\n"
-"PO-Revision-Date: 2017-02-28 23:01+0000\n"
+"PO-Revision-Date: 2023-04-04 16:51-0500\n"
 "Last-Translator: Kenny Root <Unknown>\n"
 "Language-Team: fi <LL@li.org>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Launchpad-Export-Date: 2022-04-23 06:25+0000\n"
-"X-Generator: Launchpad (build b25768b7107be17b0a785d9ebf80daa842cd03fb)\n"
+"X-Generator: Poedit 2.3.1\n"
 "Generated-By: Babel 2.10.1\n"
-"Language: fi\n"
 
 #. Summary of what ConnectBot is; used as a short description in the Android
 #. running apps list
@@ -70,12 +70,12 @@ msgstr ""
 #. Window title for the global applications settings activity.
 msgctxt "title_settings"
 msgid "Settings"
-msgstr ""
+msgstr "Asetukset"
 
 #. Window title when generating a new pubkey.
 msgctxt "title_pubkey_generate"
 msgid "Generate"
-msgstr ""
+msgstr "Luo"
 
 msgctxt "help_intro"
 msgid ""
@@ -85,12 +85,12 @@ msgstr "Valitse alta aihe, josta haluat lisätietoja."
 #. Title for the help page with the terms & conditions of the app.
 msgctxt "terms_and_conditions"
 msgid "Terms & Conditions"
-msgstr ""
+msgstr "Käyttöehdot"
 
 #. Title for the help page with the hints about the app.
 msgctxt "hints"
 msgid "Hints"
-msgstr ""
+msgstr "Vihjeet"
 
 #. Header text for instructions about creating host shortcuts.
 msgctxt "host_shortcuts_header"
@@ -107,7 +107,7 @@ msgstr ""
 #. Header text for instructions about scrolling the terminal.
 msgctxt "scroll_hints_header"
 msgid "Scroll back / Scroll forward"
-msgstr ""
+msgstr "Vieritä taaksepäin / Vieritä eteenpäin"
 
 #. Instructions about scrolling the terminal.
 msgctxt "scroll_hints_content"
@@ -117,13 +117,15 @@ msgid ""
 msgstr ""
 
 #. Captions for images showing the scroll back/forward gestures.
+#, fuzzy
 msgctxt "scrolling_back"
 msgid "Scrolling back"
-msgstr ""
+msgstr "Vierittäminen taaksepäin"
 
+#, fuzzy
 msgctxt "scrolling_forward"
 msgid "Scrolling forward"
-msgstr ""
+msgstr "Vierittäminen eteenpäin"
 
 #. Header text for instructions about paging up and down in the terminal.
 msgctxt "page_updn_header"
@@ -141,19 +143,21 @@ msgid ""
 msgstr ""
 
 #. Captions for images showing the page up/down gestures.
+#, fuzzy
 msgctxt "page_up"
 msgid "Page up"
-msgstr ""
+msgstr "Page Up"
 
+#, fuzzy
 msgctxt "page_down"
 msgid "Page down"
-msgstr ""
+msgstr "Page Down"
 
 #. Header text for instructions about switching to the next and previous host
 #. in the terminal.
 msgctxt "switching_hosts_header"
 msgid "Switching Hosts"
-msgstr ""
+msgstr "Puhelimien vaihtaminen"
 
 #. Instructions about switching to the next and previous host in the terminal.
 msgctxt "switching_hosts_content"
@@ -165,11 +169,11 @@ msgstr ""
 #. Captions for images showing the next/previous host gestures.
 msgctxt "next_host"
 msgid "Next host"
-msgstr ""
+msgstr "Seuraava palvelin"
 
 msgctxt "prev_host"
 msgid "Previous host"
-msgstr ""
+msgstr "Edellinen palvelin"
 
 #. Title for the help dialog showing keyboard shortcuts.
 msgctxt "keyboard_shortcuts"
@@ -180,28 +184,28 @@ msgstr ""
 #. terminal font-size.
 msgctxt "increase_font_size"
 msgid "Increase Font Size"
-msgstr ""
+msgstr "Suurenna fonttikokoa"
 
 #. Keyboard shortcut for increasing the font size.
 msgctxt "increase_font_shortcut"
 msgid "Ctrl and +"
-msgstr ""
+msgstr "Ctrl ja -"
 
 #. Text in a keyboard shortcuts list lined up to keys which decrease the
 #. terminal font-size.
 msgctxt "decrease_font_size"
 msgid "Decrease Font Size"
-msgstr ""
+msgstr "Pienennä fonttikokoa"
 
 #. Keyboard shortcut for decreasing the font size.
 msgctxt "decrease_font_shortcut"
 msgid "Ctrl and -"
-msgstr ""
+msgstr "Ctrl ja -"
 
 #. Keyboard shortcut for pasting into the terminal.
 msgctxt "paste_shortcut"
 msgid "Ctrl-Shift-V"
-msgstr ""
+msgstr "Ctrl-Vaihto-V"
 
 msgctxt "pubkey_generate"
 msgid "Generate"
@@ -270,7 +274,7 @@ msgstr "Hae sijainnista /sdcard"
 #. parseable for some reason.
 msgctxt "pubkey_import_parse_problem"
 msgid "Problem parsing imported private key"
-msgstr "Ongelma käsiteltäessä tuotua avainparia"
+msgstr "Ongelma käsiteltäessä tuotua yksityistä avainta"
 
 msgctxt "pubkey_unlock"
 msgid "Unlock key"
@@ -337,7 +341,7 @@ msgstr "Lempinimi:"
 #. An example string that could be used as a nickname for a pubkey.
 msgctxt "prompt_nickname_hint_pubkey"
 msgid "My work key"
-msgstr "Työavain"
+msgstr "Työavaimeni"
 
 #. The source TCP port for port forwards.
 msgctxt "prompt_source_port"
@@ -398,7 +402,7 @@ msgid ""
 "use key '%1$s'?"
 msgstr ""
 "Hyväksy etäyhteys:\n"
-"käytä avainta '%1$s'"
+"käytä avainta '%1$s'?"
 
 #. The header of the warning a user gets when the host key has changed. Note
 #. that this can be a very serious attack, so we try to be as "loud" to the
@@ -413,7 +417,8 @@ msgstr "VAROITUS: ETÄPÄÄN KONEEN TUNNISTE ON MUUTTUNUT!"
 msgctxt "host_verification_failure_warning"
 msgid ""
 "IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!\n"
-"Someone could be eavesdropping on you right now (man-in-the-middle attack)!\n"
+"Someone could be eavesdropping on you right now (man-in-the-middle "
+"attack)!\n"
 "It is also possible that the host key has just been changed."
 msgstr ""
 "JOKU SAATTAA OLLA TEKEMÄSSÄ PAHOJAAN!\n"
@@ -445,7 +450,7 @@ msgstr ""
 #, c-format
 msgctxt "host_authenticity_warning"
 msgid "The authenticity of host '%1$s' can't be established."
-msgstr "Palvelimen '%1$s' aitoutta ei voida varmentaa"
+msgstr "Palvelimen '%1$s' aitoutta ei voida varmentaa."
 
 #. First field is encryption algorithm. Second is the actual fingerprint in
 #. hex digits
@@ -464,7 +469,7 @@ msgstr "Väärä salasana!"
 
 msgctxt "alert_key_corrupted_msg"
 msgid "Private key appears corrupt!"
-msgstr "Yksityinen avain vaikuttaa korruptoituneelta."
+msgstr "Yksityinen avain vaikuttaa korruptoituneelta!"
 
 msgctxt "alert_sdcard_absent"
 msgid "SD card is not inserted!"
@@ -486,8 +491,8 @@ msgstr "Yhteys katkesi"
 
 msgctxt "msg_copyright"
 msgid ""
-"Copyright © 2007-2008 Kenny Root http://the-b.org/, Jeffrey Sharkey "
-"http://jsharkey.org/"
+"Copyright © 2007-2008 Kenny Root http://the-b.org/, Jeffrey Sharkey http://"
+"jsharkey.org/"
 msgstr ""
 "Tekijänoikeudet © 2007-2008 Kenny Root http://the-b.org/, Jeffrey Sharkey "
 "http://jsharkey.org/"
@@ -521,7 +526,7 @@ msgstr ""
 #. Title of the preference used to enable or disable the back-up of pubkeys.
 msgctxt "pref_backupkeys_title"
 msgid "Backup pubkeys"
-msgstr ""
+msgstr "Varmuuskopioi julkiset avaimet"
 
 #. Summary for the preference used to enable or disable the back-up of
 #. pubkeys.
@@ -583,7 +588,7 @@ msgstr "Piilota ilmoitusalue konsolikäytössä"
 #. The category title for keyboard preferences
 msgctxt "pref_keyboard_category"
 msgid "Keyboard"
-msgstr ""
+msgstr "Näppäimistö"
 
 #. Name for the shifted numbers are f-keys preference
 msgctxt "pref_shiftfkeys_title"
@@ -661,7 +666,7 @@ msgstr ""
 #. should be a sticky modifier.
 msgctxt "only_alt"
 msgid "Only alt"
-msgstr ""
+msgstr "Vain Alt"
 
 #. Name for the camera shortcut usage preference
 msgctxt "pref_camera_title"
@@ -782,7 +787,7 @@ msgstr "Kirjasimen koko (pistettä)"
 #. Host pubkey usage preference title
 msgctxt "hostpref_pubkeyid_title"
 msgid "Use pubkey authentication"
-msgstr "Kirjaudu avainparilla"
+msgstr "Käytä julkisen avaimen todennusta"
 
 #. Preference title for the SSH Authentication Agent Forwarding for a host
 #. connection
@@ -983,7 +988,7 @@ msgstr "portti"
 
 msgctxt "list_menu_pubkeys"
 msgid "Manage Pubkeys"
-msgstr "Hallitse avaimia"
+msgstr "Hallitse julkisia avaimia"
 
 #. Selection choice to sort hosts by color.
 msgctxt "list_menu_sortcolor"
@@ -997,7 +1002,7 @@ msgstr "Lajittele nimen mukaan"
 
 msgctxt "list_menu_disconnect"
 msgid "Disconnect All"
-msgstr ""
+msgstr "Katkaise kaikki"
 
 msgctxt "list_menu_settings"
 msgid "Settings"
@@ -1102,11 +1107,11 @@ msgstr ""
 
 msgctxt "disconnect_all_pos"
 msgid "Yes, disconnect"
-msgstr ""
+msgstr "Kyllä, katkaise"
 
 msgctxt "disconnect_all_neg"
 msgid "Cancel"
-msgstr ""
+msgstr "Peru"
 
 msgctxt "terminal_no_hosts_connected"
 msgid "No hosts currently connected"
@@ -1127,7 +1132,7 @@ msgstr "Varmennettiin palvelin '%1$s' avain: %2$s"
 
 msgctxt "terminal_failed"
 msgid "Host key verification failed."
-msgstr "Palvelimen avaimen varmistaminen epäonnistui"
+msgstr "Palvelimen avaimen varmistaminen epäonnistui."
 
 #. Displayed on the terminal describing the cryptographic algorithm names
 #, c-format
@@ -1205,7 +1210,7 @@ msgstr ""
 
 msgctxt "terminal_no_session"
 msgid "Session will not be started due to host preference."
-msgstr "Istuntoa ei aloiteta palvelimen asetuksista johtuen"
+msgstr "Istuntoa ei aloiteta palvelimen asetuksista johtuen."
 
 #, c-format
 msgctxt "terminal_enable_portfoward"
@@ -1214,7 +1219,7 @@ msgstr "Ota käyttöön porttiohjaus %1$s"
 
 msgctxt "local_shell_unavailable"
 msgid "Failure! Local shell is unavailable on this phone."
-msgstr "Virhe! Paikallista komentoriviä ei ole käytettävissä"
+msgstr "Virhe! Paikallista komentoriviä ei ole käytettävissä."
 
 #. Text sent to the user to alert them that a Terminal Bell is received in a
 #. background session
@@ -1283,12 +1288,13 @@ msgstr "Yhdistetty."
 #. currently              disconnected after having been previously connected.
 msgctxt "image_description_disconnected"
 msgid "Disconnected."
-msgstr ""
+msgstr "Yhteys katkaistu."
 
 #. Describes the icon of the "locked pubkey" icon for accessibility purposes.
+#, fuzzy
 msgctxt "image_description_key_is_locked"
 msgid "Key is locked."
-msgstr ""
+msgstr "Avain on lukittu."
 
 #. Describes the icon of the "send control character" button in the terminal
 #. view for              accessibility purposes.
@@ -1318,7 +1324,7 @@ msgstr ""
 #. accessibility              purposes.
 msgctxt "image_description_show_keyboard"
 msgid "Show keyboard."
-msgstr "Näytä näppäimistö"
+msgstr "Näytä näppäimistö."
 
 #. Describes the icon of the "Arrow up" button in the terminal view for
 #. accessibility              purposes.
@@ -1383,62 +1389,62 @@ msgstr ""
 #. Text for the "F1" button in virtual keyboard.
 msgctxt "button_key_f1"
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #. Text for the "F2" button in virtual keyboard.
 msgctxt "button_key_f2"
 msgid "F2"
-msgstr ""
+msgstr "F2"
 
 #. Text for the "F3" button in virtual keyboard.
 msgctxt "button_key_f3"
 msgid "F3"
-msgstr ""
+msgstr "F3"
 
 #. Text for the "F4" button in virtual keyboard.
 msgctxt "button_key_f4"
 msgid "F4"
-msgstr ""
+msgstr "F4"
 
 #. Text for the "F5" button in virtual keyboard.
 msgctxt "button_key_f5"
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #. Text for the "F6" button in virtual keyboard.
 msgctxt "button_key_f6"
 msgid "F6"
-msgstr ""
+msgstr "F6"
 
 #. Text for the "F7" button in virtual keyboard.
 msgctxt "button_key_f7"
 msgid "F7"
-msgstr ""
+msgstr "F7"
 
 #. Text for the "F8" button in virtual keyboard.
 msgctxt "button_key_f8"
 msgid "F8"
-msgstr ""
+msgstr "F8"
 
 #. Text for the "F9" button in virtual keyboard.
 msgctxt "button_key_f9"
 msgid "F9"
-msgstr ""
+msgstr "F9"
 
 #. Text for the "F10" button in virtual keyboard.
 msgctxt "button_key_f10"
 msgid "F10"
-msgstr ""
+msgstr "F10"
 
 #. Text for the "F11" button in virtual keyboard.
 msgctxt "button_key_f11"
 msgid "F11"
-msgstr ""
+msgstr "F11"
 
 #. Text for the "F12" button in virtual keyboard.
 msgctxt "button_key_f12"
 msgid "F12"
-msgstr ""
+msgstr "F12"
 
 #. Label for spinner which allows user to select SSH/Telnet/Local.
 msgctxt "protocol_spinner_label"
@@ -1468,15 +1474,16 @@ msgstr ""
 
 #. Text for button which, when clicked, brings up an editor for adding a new
 #. pubkey.
+#, fuzzy
 msgctxt "pubkey_add_new"
 msgid "Add new pubkey"
-msgstr ""
+msgstr "Lisää uusi julkinen avain"
 
 #. Text for button which, when clicked, brings up picker to import an existing
 #. pubkey.
 msgctxt "pubkey_import_existing"
 msgid "Import existing pubkey"
-msgstr ""
+msgstr "Tuo olemassa oleva julkinen avain"
 
 #. Text for dialog which explains that the host URI is invalid and asks to
 #. discard.
