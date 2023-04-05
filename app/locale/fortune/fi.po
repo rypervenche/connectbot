@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-04-21 23:51-0700\n"
-"PO-Revision-Date: 2023-04-04 16:51-0500\n"
+"PO-Revision-Date: 2023-04-04 20:27-0500\n"
 "Last-Translator: Kenny Root <Unknown>\n"
 "Language-Team: fi <LL@li.org>\n"
 "Language: fi\n"
@@ -1357,14 +1357,15 @@ msgid "Volume"
 msgstr ""
 
 #. Text for the "Esc" button in virtual keyboard.
+#, fuzzy
 msgctxt "button_key_esc"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #. Text for the "Ctrl" button in virtual keyboard.
 msgctxt "button_key_ctrl"
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #. Text for the "Home" button in virtual keyboard.
 msgctxt "button_key_home"
@@ -1465,12 +1466,12 @@ msgstr ""
 #. Text for button which, when clicked, adds a new host.
 msgctxt "hostpref_add_host"
 msgid "Add host"
-msgstr ""
+msgstr "Lisää palvelin"
 
 #. Text for button which, when clicked, saves an existing host.
 msgctxt "hostpref_edit_host"
 msgid "Save host"
-msgstr ""
+msgstr "Tallenna palvelin"
 
 #. Text for button which, when clicked, brings up an editor for adding a new
 #. pubkey.
